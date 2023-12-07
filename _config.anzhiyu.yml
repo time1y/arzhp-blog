@@ -419,7 +419,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2023
   custom_text:
   runtime:
     enable: false
@@ -741,8 +741,8 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
-blog_title_font: ARZHP  
-  font_link: 
+blog_title_font:  
+  font_link:
   font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
 # The setting of divider icon (水平分隔线图标设置)
