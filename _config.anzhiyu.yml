@@ -1,5 +1,6 @@
 menu:
-  文章分类: /categories/ || anzhiyu-icon-shapes
+  首页: /
+  分类: /categories/ || anzhiyu-icon-shapes
   标签: /tags/ || anzhiyu-icon-tags
   归档: /archives/ || anzhiyu-icon-box-archive
   友链: /link/ || anzhiyu-icon-link
