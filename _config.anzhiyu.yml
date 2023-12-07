@@ -78,18 +78,18 @@ social:
 
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+     - 🤖️ 数码科技爱好者
+     - 🔍 分享与热心帮助
+     - 🏠 智能家居小能手
+     - 🔨 设计开发一条龙
+     - 🤝 专修交互与设计
+     - 🏃 脚踏实地行动派
+     - 🧱 团队小组发动机
+     - 💢 壮汉人狠话不多
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -520,8 +520,8 @@ footer:
       enable: false
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
+      - link: https://github.com/time1y
+        text: GITHUB
       # - link: https://image.anheyu.com
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
@@ -668,7 +668,7 @@ rightside-bottom: 100px
 # canvas_ribbon (静止彩带背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -700,7 +700,7 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠标点击效果: 烟火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -741,8 +741,8 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
-blog_title_font:
-  font_link:
+blog_title_font: ARZHP  
+  font_link: 
   font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
 # The setting of divider icon (水平分隔线图标设置)
@@ -852,7 +852,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 11/11/2023 00:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1067,10 +1067,10 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
+    tips: 图床
+    title: 一个免费的图床。。。
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
+    link: https://img.arzhp.cn/
 
 # 朋友圈配置
 friends_vue:
@@ -1119,7 +1119,7 @@ comment_barrage_config:
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: true
+  enable: false
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
@@ -1128,7 +1128,7 @@ nav_music:
 # 评论匿名邮箱
 visitorMail:
   enable: true
-  mail: visitor@anheyu.com
+  mail: arzhp@qq.com
 
 # ptool 文章底部工具
 ptool:
@@ -1141,33 +1141,33 @@ ptool:
 
 # 欢迎语配置
 greetingBox:
-  enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
-    # - greeting: 晚安😴
-    #   startTime: 0
-    #   endTime: 5
-    # - greeting: 早上好鸭👋, 祝你一天好心情！
-    #   startTime: 6
-    #   endTime: 9
-    # - greeting: 上午好👋, 状态很好，鼓励一下～
-    #   startTime: 10
-    #   endTime: 10
-    # - greeting: 11点多啦, 在坚持一下就吃饭啦～
-    #   startTime: 11
-    #   endTime: 11
-    # - greeting: 午安👋, 宝贝
-    #   startTime: 12
-    #   endTime: 14
-    # - greeting: 🌈充实的一天辛苦啦！
-    #   startTime: 14
-    #   endTime: 18
-    # - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
-    #   startTime: 19
-    #   endTime: 19
-    # - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
-    #   startTime: 20
-    #   endTime: 24
+     - greeting: 晚安😴
+       startTime: 0
+       endTime: 5
+     - greeting: 早上好鸭👋, 祝你一天好心情！
+       startTime: 6
+       endTime: 9
+     - greeting: 上午好👋, 状态很好，鼓励一下～
+       startTime: 10
+       endTime: 10
+     - greeting: 11点多啦, 在坚持一下就吃饭啦～
+       startTime: 11
+       endTime: 11
+     - greeting: 午安👋, 宝贝
+       startTime: 12
+       endTime: 14
+     - greeting: 🌈充实的一天辛苦啦！
+       startTime: 14
+       endTime: 18
+     - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+       startTime: 19
+       endTime: 19
+     - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+       startTime: 20
+       endTime: 24
 
 # 文章顶部ai摘要
 post_head_ai_description:
