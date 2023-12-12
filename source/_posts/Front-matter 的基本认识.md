@@ -8,7 +8,7 @@ keywords:
 description:
 top_img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231212/60a3497b48c1aec6e86c99a9d644bedf8b9f525b.kyxult29fgw.webp
 comments:
-cover:
+cover: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231212/60a3497b48c1aec6e86c99a9d644bedf8b9f525b.kyxult29fgw.webp
 toc:
 toc_number:
 toc_style_simple:
