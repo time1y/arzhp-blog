@@ -131,11 +131,11 @@ plugins:
   - hexo-algoliasearch
 
 algolia:
-  appId: "D7UKE4O0S8"
-  apiKey: "b3150920e75ab0d066d4fc9d6c9c39c6"
-  adminApiKey: "9fdfa3d4508a1729441907f7df23918f"
+  appId: "DJQYRFTA1I"
+  apiKey: "a4c98c6491781239e5635aacfb74d373"
+  adminApiKey: "168bf32944622b7f4bc7e0ed24d6a9de"
   chunkSize: 5000
-  indexName: "blog"
+  indexName: "hexo"
   fields:
     - content:strip:truncate,0,200
     - excerpt:strip
