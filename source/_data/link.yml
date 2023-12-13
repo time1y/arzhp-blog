@@ -11,7 +11,15 @@
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
-
+    - name: MOINGODB
+      link: https://cloud.mongodb.com/
+      avatar: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231213/u=3170279024,160556071&fm=253&app=138&size=w931&n=0&f=PNG&fmt=auto.7bciwbrpl0w0.webp
+      descr: 构建更快速,构建更智能。
+    - name: Algolia
+      link: https://dashboard.algolia.com/
+      avatar: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231213/algolia.5o8wxi5e1r80.webp
+      descr: 构建更快速,构建更智能。
+        
 - class_name: 推荐博客
   flink_style: telescopic
   hundredSuffix: ""
