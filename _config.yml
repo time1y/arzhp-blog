@@ -127,21 +127,8 @@ envelope_comment:
     top_img: false
     type: envelope
 
-plugins:
-  - hexo-algoliasearch
-
-algolia:
-  appId: "DJQYRFTA1I"
-  apiKey: "a4c98c6491781239e5635aacfb74d373"
-  adminApiKey: "168bf32944622b7f4bc7e0ed24d6a9de"
-  chunkSize: 5000
-  indexName: "hexo"
-  fields:
-    - content:strip:truncate,0,200
-    - excerpt:strip
-    - gallery
-    - permalink
-    - photos
-    - slug
-    - tags
-    - title
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
