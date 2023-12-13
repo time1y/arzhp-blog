@@ -90,7 +90,7 @@ author_status:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
   tags:
@@ -110,7 +110,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   preload: true
   CDN:
 
