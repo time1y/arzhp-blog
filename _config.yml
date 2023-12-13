@@ -137,7 +137,7 @@ algolia:
   chunkSize: 5000
   indexName: "hexo"
   fields:
-    - content:strip:truncate,0,500
+    - content:strip:truncate,0,200
     - excerpt:strip
     - gallery
     - permalink
