@@ -90,12 +90,12 @@ author_status:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
   tags:
-    # - 文章
-    # - 技术
+     - 文章
+     - 技术
 
 # Docsearch
 # Apply and Docs: see https://docsearch.algolia.com/
@@ -110,7 +110,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   preload: true
   CDN:
 
