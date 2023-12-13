@@ -127,6 +127,9 @@ envelope_comment:
     top_img: false
     type: envelope
 
+plugins:
+  - hexo-algoliasearch
+
 # algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
 algolia:
   appId: "8HTG57HCF5"
