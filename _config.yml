@@ -126,3 +126,20 @@ envelope_comment:
     comments: true
     top_img: false
     type: envelope
+
+# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+algolia:
+  appId: "8HTG57HCF5"
+  apiKey: "c2c8fbcd0433d95ddb639b9bf370ccca"
+  adminApiKey: "0a2bb3fca1b1cd045f7d22397b62ed97"
+  chunkSize: 5000
+  indexName: "hexo"
+  fields:
+    - content:strip:truncate,0,200
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
