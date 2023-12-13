@@ -135,7 +135,7 @@ algolia:
   apiKey: "c2c8fbcd0433d95ddb639b9bf370ccca"
   adminApiKey: "0a2bb3fca1b1cd045f7d22397b62ed97"
   chunkSize: 5000
-  indexName: "dev_HEXO"
+  indexName: "time1y-blog"
   fields:
     - content:strip:truncate,0,500
     - excerpt:strip
