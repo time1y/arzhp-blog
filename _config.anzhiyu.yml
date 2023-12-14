@@ -246,10 +246,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/weixin.67q2rokqtjc0.webp
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/zhifubao.3cyzbn50z8s0.webp
       link:
       text: 支付宝
 
