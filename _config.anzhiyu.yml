@@ -136,11 +136,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231207/logo2.4qudgiggwiw0.webp
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231207/tou.37i905kkdz80.webp
   effect: false
 
 # 禁用所有横幅图像
