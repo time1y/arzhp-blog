@@ -1,0 +1,230 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>vue 20以内凑十法破十法生成器-jq22.com</title>
+<script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<style>
+body {
+	background:#dcf5dc;
+	font-weight:700;
+}
+.pdfc * {
+	margin:0;
+	padding:0;
+	line-height:0;
+}
+.pdfc {
+	width:210mm;
+	height:297mm;
+	font-size:18px;
+	margin:auto;
+	background:#fff;
+	overflow:hidden;
+	margin-top:20px;
+}
+.items {
+	position:relative;
+	float:left;
+	margin-top:20px;
+	margin-right:28px;
+}
+.fk {
+	width:25px;
+	height:25px;
+	display:inline-block;
+	border:2px solid #000;
+	vertical-align:middle;
+}
+.num {
+	padding:0 20px;
+}
+.line {
+	display:inline-block;
+	width:0;
+	height:25px;
+	border-left:2px solid #000;
+	transform:rotate(-45deg);
+}
+.line:nth-child(1) {
+	margin-right:30px;
+	transform:rotate(45deg);
+}
+.ba-line {
+	margin-left:73px;
+}
+.ba-fk {
+	margin-left:45px;
+}
+.ba-fk .fk:nth-child(1) {
+	margin-right:30px;
+}
+.line1 {
+	display:inline-block;
+	width:0;
+	height:10px;
+	border-left:2px solid #000;
+}
+.line1-box {
+	margin-left:58px;
+}
+.line2 {
+	display:inline-block;
+	width:36px;
+	height:0;
+	border-top:2px solid #000;
+	vertical-align:top;
+}
+.line2-box {
+	margin-left:24px;
+}
+.line3 {
+	display:inline-block;
+	width:0;
+	height:66px;
+	border-left:2px solid #000;
+}
+.line3-box {
+	position:absolute;
+	top:29px;
+	left:24px;
+}
+</style>
+</head>
+<body>
+<script src="https://www.jq22.com/jquery/vue2.6.10.min.js"></script><script src="https://s3.pstatp.com/cdn/expire-1-M/vue/2.6.10/vue.min.js"></script>
+<div id="app">
+    <div v-if="canPrint" style="width: 210mm; margin: auto;text-align: center">
+        题目数量：<input type="number" style="width: 100px" v-model="maxQuestions">
+        <button @click="generateQuestions('csf')">生成凑十法题目</button>
+        <button @click="generateQuestions('psf')">生成破十法题目</button>
+        <button @click="print">打印</button>
+    </div>
+    <div class="pdfc" v-for="(item,index) in questions" :key="index">
+        <div style="width: 210mm; margin: auto;text-align: center">
+            {{csf?'凑十法练习题': '破十法练习题'}} {{index + 1}}
+            <span style="margin-left: 50px">班级：</span><span style="display: inline-block;border-bottom: 1px solid #000;width: 80px;height: 30px"></span>
+            <span style="margin-left: 50px">姓名：</span><span style="display: inline-block;border-bottom: 1px solid #000;width: 80px;height: 30px"></span>
+        </div>
+        <div v-if="csf">
+            <div class="items" v-for="(subitem,subindex) in item" :key="subindex">
+                <div>
+                    <span class="num">{{subitem.num1}}</span>{{subitem.operation}}<span class="num">{{subitem.num2}}</span> = <span class="fk"></span>
+                </div>
+                <div class="ba-line"><i class="line"></i><i class="line"></i></div>
+                <div class="ba-fk"><span class="fk"></span><span class="fk"></span></div>
+                <div class="line1-box"><i class="line1"></i></div>
+                <div class="line2-box"><i class="line2"></i></div>
+                <div class="line3-box"><i class="line3"></i></div>
+                <div class="line1-box" style="margin-left: 42px"><i class="line1"></i></div>
+                <div style="margin-left: 28px">
+                    <span class="fk"></span>
+                </div>
+            </div>
+        </div>
+        <div v-if="psf">
+            <div class="items" v-for="(subitem,subindex) in item" :key="subindex" style="margin-right: 0;margin-left: 40px">
+                <div>
+                    <span class="num">{{subitem.num1}}</span>{{subitem.operation}}<span class="num" style="padding-right: 0">{{subitem.num2}}</span> = <span class="fk"></span>
+                </div>
+                <div class="ba-line" style="margin-left: 14px"><i class="line"></i><i class="line"></i></div>
+                <div class="ba-fk" style="margin-left: -10px"><span class="fk"></span><span class="fk"></span></div>
+                <div class="line1-box" style="margin-left: 60px"><i class="line1"></i></div>
+                <div class="line2-box" style="margin-left: 60px"><i class="line2"></i></div>
+                <div class="line3-box" style="left: 95px"><i class="line3"></i></div>
+                <div class="line1-box" style="margin-left: 79px"><i class="line1"></i></div>
+                <div style="margin-left: 66px">
+                    <span class="fk"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+new Vue({
+    el: '#app',
+    data() {
+        return {
+            questions: [],
+            maxQuestions: 84,
+            timer: null,
+            canPrint: true,
+            csf: true,
+            psf: false
+        }
+    },
+    mounted() {
+        this.generateQuestions('csf')
+    },
+    methods: {
+        getRandomNum(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        },
+        generateQuestions(type) {
+            if (this.maxQuestions < 1 || this.maxQuestions > 840) {
+                alert('请输入1-840之间的数字');
+                return
+            }
+            const maxQuestions = this.maxQuestions;
+            const questions = [];
+            if (type === 'csf') {
+                this.csf = true
+                this.psf = false
+                while (questions.length < maxQuestions) {
+                    const num1 = this.getRandomNum(1, 9);
+                    const num2 = this.getRandomNum(1, 9);
+                    const operation = '+';
+                    let answer;
+                    answer = num1 + num2;
+                    if (answer > 10 && answer <= 20) {
+                        questions.push({
+                            num1: num1,
+                            num2: num2,
+                            operation: operation,
+                            answer: answer
+                        });
+                    }
+                }
+            } else {
+                this.csf = false
+                this.psf = true
+                while (questions.length < maxQuestions) {
+                    const num1 = this.getRandomNum(11, 20);
+                    const num2 = this.getRandomNum(1, 9);
+                    const operation = '-';
+                    let answer;
+                    answer = num1 - num2;
+                    questions.push({
+                        num1: num1,
+                        num2: num2,
+                        operation: operation,
+                        answer: answer
+                    });
+                }
+            }
+
+            this.questions = this.splitArray(questions, 28);
+            console.log(this.questions, 'this.questions');
+        },
+        print() {
+            this.canPrint = false
+            clearTimeout(this.timer)
+            this.timer = setTimeout(() => {
+                window.print()
+                window.location.reload()
+            }, 200)
+        },
+        splitArray(arr, chunkSize) {
+            const result = [];
+            for (let i = 0; i < arr.length; i += chunkSize) {
+                result.push(arr.slice(i, i + chunkSize));
+            }
+            return result;
+        }
+    }
+})
+</script>
+
+</body>
+</html>

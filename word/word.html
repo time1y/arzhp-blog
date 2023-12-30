@@ -1,0 +1,150 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>js小学生数学作业生成器代码-jq22.com</title>
+<script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<style>
+.ming {
+	width:70vw;
+	height:7.5vh;
+	margin:0 auto;
+	text-align:right;
+	line-height:7.5vh;
+	font-size:2.5vh;
+	font-weight:700;
+}
+.ming>span {
+	display:inline-block;
+	width:8%;
+	height:1%;
+	background:black;
+}
+.ming>s {
+	margin-left:2vw;
+}
+.这是100内加减法-标题,.这是100以内竖式计算-标题 {
+	width:70vw;
+	height:10vh;
+	margin:5vh auto 0 auto;
+	font-size:3vh;
+	font-weight:700;
+}
+.这是100内加减法-内容,.这是100以内竖式计算-内容 {
+	width:70vw;
+	margin:0 auto;
+	font-size:3vh;
+	font-weight:700;
+}
+.这是100内加减法-内容>div,.这是100以内竖式计算-内容>div {
+	display:flex;
+	justify-content:space-between;
+	line-height:10vh
+}
+.这是100内加减法-内容>div>div,.这是100以内竖式计算-内容>div>div {
+	display:inline-block;
+}
+.这是100内加减法-内容>div>div:nth-child(5) {
+	margin-right:5vw;
+}
+.这是100以内竖式计算-内容>div>div {
+	line-height:5vh;
+	width:20%;
+	height:25vh;
+	text-align:right;
+	letter-spacing:1.5vw;
+}
+.这是100以内竖式计算-内容>div>div>div:nth-child(2) {
+	border-bottom:2px solid black;
+}
+.竖式计算结果 {
+	width:100%;
+	height:5vh;
+	letter-spacing:0px;
+}
+.竖式计算结果>div {
+	width:20%;
+	height:100%;
+	border:1px solid black;
+	display:inline-block;
+	margin-top:.5vh;
+}
+</style>
+</head>
+<body>
+<div style="margin-top:10vh;">
+    <div class="ming">
+        <span></span>月
+        <span></span>日
+        <s></s>姓名:<span></span>
+
+    </div>
+    <div class="ming">
+        <span></span>分
+        <span></span>秒
+        <s></s>班级:<span></span>
+    </div>
+</div>
+
+<div class="这是100内加减法-标题">
+    100内加减法<br> //////////////////////////////////////////////////////////////////////////////////////////////////////////
+</div>
+<div class="这是100内加减法-内容" id="is100+-">
+
+
+</div>
+
+
+<div class="这是100以内竖式计算-标题">
+    这是100以内竖式计算<br> //////////////////////////////////////////////////////////////////////////////////////////////////////////
+</div>
+<div class="这是100以内竖式计算-内容" id="is100ss">
+
+
+</div>
+
+<script>
+window.onload = function() {
+    var zzjjcc = "";
+    var jjcc = "";
+
+    var zzss = "";
+    var ss = "";
+
+    for (var i = 1; i <= 20; i++) {
+        var jie = (Math.random() * (5 - 1) + 1) >> 0;
+        switch (jie) {
+            case 1:
+                jie = "  +  ";
+                break;
+            case 2:
+                jie = "  -  ";
+                break;
+            case 3:
+                jie = "  *  ";
+                break;
+            case 4:
+                jie = "  /  ";
+                break;
+
+        }
+        jjcc += "<div>" + ((Math.random() * (100 - 1) + 1) >> 0).toString() + jie + ((Math.random() * (100 - 1) + 1) >> 0).toString() + "  =" + "</div>";
+        ss += "<div><div>" + ((Math.random() * (100 - 1) + 1) >> 0).toString() + "</div><div>" + jie + ((Math.random() * (100 - 1) + 1) >> 0).toString() + "</div><div class='竖式计算结果'><div></div><div></div><div></div><div></div></div></div>"
+        if (i % 5 == 0) {
+            zzjjcc += "<div>" + jjcc + "</div>"
+            jjcc = "";
+        }
+        if (i % 4 == 0) {
+            zzss += "<div>" + ss + "</div>"
+            ss = "";
+        }
+    }
+    document.getElementById("is100+-").innerHTML += zzjjcc;
+    document.getElementById("is100ss").innerHTML += zzss;
+
+
+}
+</script>
+
+</body>
+</html>
