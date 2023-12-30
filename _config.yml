@@ -147,5 +147,5 @@ algolia:
     - title
 
 # 跳过HTML渲染
-skip_render
-  - "html/**"
+skip_render: 
+  - "html/**" 
