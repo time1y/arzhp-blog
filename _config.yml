@@ -145,3 +145,7 @@ algolia:
     - slug
     - tags
     - title
+
+# 跳过HTML渲染
+skip_render
+  - "html/**"
