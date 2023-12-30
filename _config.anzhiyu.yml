@@ -19,7 +19,9 @@ menu:
    关于本人: /about/ || anzhiyu-icon-paper-plane
    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-
+   加减: /html/word.html || anzhiyu-icon-lightbulb
+   破十: /html/cou.html || anzhiyu-icon-lightbulb
+   乘除: /html/ma.html || anzhiyu-icon-lightbulb
 # nav相关配置
 nav:
   enable: true
