@@ -637,10 +637,10 @@ highlight:
 # image lightbox
 # warning：开启前下方的fancybox或mediumZoom必须打开一个
 # warning: One of the fancybox or mediumZoom below must be turned on before turning on
-lightbox: false
+lightbox: true
 # fancybox
 # https://fancyapps.com/fancybox/
-fancybox: false
+fancybox: true
 # mediumZoom
 mediumZoom: false
 
@@ -678,7 +678,7 @@ busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 # warning：开启前需要安装搜索插件
 # warning: You need to install the search plugin before turning it on
 search:
-  enable: false
+  enable: ture
   # algolia, local
   type: local
   # 推荐标签
@@ -746,7 +746,7 @@ katex:
 # comment
 # getting start: https://solitude.js.org/comments/comment
 comment:
-  use: # waline, twikoo, valine, artalk
+  use: twikoo # waline, twikoo, valine, artalk
   commentBarrage: false # 热评开关 / Hot comment switch
   lazyload: false # 懒加载
   count: false # 评论数展示
@@ -758,8 +758,8 @@ comment:
 
 # twikoo 配置信息
 # twikoo settings
-twikoo: # https://twikoo.js.org/
-  envId: # url: https://twikoo.sondy.top/
+twikoo:   # https://twikoo.js.org/
+  envId: https://twikoo.arzhp.cn/ # url: https://twikoo.sondy.top/
   region: # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
   style: true # Use custom styles when turned on / 开启后使用自定义样式
   accessToken: # AccessToken
