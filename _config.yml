@@ -5,15 +5,15 @@
 # Site
 title: ARZHP
 subtitle: ''
-description: ''
+description: '一个小白的博客'
 keywords:
-author: Time1y
+author: time1y
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.arzhp.cn
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -29,7 +29,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - "html/**"  
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -44,15 +43,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -104,46 +102,3 @@ theme: solitude
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-#envelope_comment
-#seehttps://akilar.top/posts/e2d3c450/
-envelope_comment:
-  enable: true #控制开关
-  custom_pic:
-    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
-    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
-    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
-    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
-  message: #信笺正文，多行文本，写法如下
-    - 有什么想问的？
-    - 有什么想说的？
-    - 有什么想吐槽的？
-    - 哪怕是有什么想吃的，都可以告诉我哦~
-  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
-  height: #1024px，信封划出的高度
-  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
-  front_matter: #【可选】comments页面的 front_matter 配置
-    title: 留言板
-    comments: true
-    top_img: false
-    type: envelope
-
-plugins:
-  - hexo-algoliasearch
-
-algolia:
-  appId: "DJQYRFTA1I"
-  apiKey: "a4c98c6491781239e5635aacfb74d373"
-  adminApiKey: "168bf32944622b7f4bc7e0ed24d6a9de"
-  chunkSize: 5000
-  indexName: "hexo"
-  fields:
-    - content:strip:truncate,0,200
-    - excerpt:strip
-    - gallery
-    - permalink
-    - photos
-    - slug
-    - tags
-    - title
-
