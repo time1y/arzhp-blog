@@ -43,21 +43,21 @@ nav:
   # 中心菜单
   # center menu
   menu:
-  # 首页: / # 显示名称：路径 / Display name: path
-  # 文库: # 显示名称 / Display name
-  #   文章列表: /archives/ || st-folder-fill # 子菜单名称：路径 || 图标 / Submenu name: path || icon
-  #   全部分类: /categories/ || st-checkbox-multiple-blank-fill
-  #   全部标签: /tags/ || st-price-tag-fill
-  # 友链:
-  #   友链鱼塘: /moments/ || st-wifi-fill
-  #   友情链接: /links/ || st-group-fill
-  #   宝藏博主: javascript:travelling() || st-gift-fill
-  # 我的:
-  #   装备: /equipment/ || st-laptop-line
-  #   工具箱: /tlink/ || st-tools-fill
+   首页: / # 显示名称：路径 / Display name: path
+   文库: # 显示名称 / Display name
+     文章列表: /archives/ || st-folder-fill # 子菜单名称：路径 || 图标 / Submenu name: path || icon
+     全部分类: /categories/ || st-checkbox-multiple-blank-fill
+     全部标签: /tags/ || st-price-tag-fill
+   友链:
+     友链鱼塘: /moments/ || st-wifi-fill
+     友情链接: /links/ || st-group-fill
+     宝藏博主: javascript:travelling() || st-gift-fill
+   我的:
+     装备: /equipment/ || st-laptop-line
+     工具箱: /tlink/ || st-tools-fill
   #   音乐馆: /music/ || st-disc-fill
-  # 关于:
-  #   关于本站: /about/ || st-contacts-fill
+   关于:
+     关于本站: /about/ || st-contacts-fill
 
   # 右侧按钮
   # Button on the right
@@ -93,7 +93,7 @@ hometop:
     # Carousel icon
     # tip: 76x76 size
     icon:
-    # HTML: # 名字 / Name
+    # HTML: 1 # 名字 / Name
     #   img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
     #   color: "#e9572b" # 背景色 / Background color
     # JS:
@@ -115,9 +115,9 @@ hometop:
   # 左下跳转按钮
   # Banner lower left jump button
   group:
-  # 热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
-  # 教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
-  # 精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
+   # 热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
+   # 教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
+   # 精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
 
   # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
   # Right top list (add "recommend: true" in the front matter of the article)
@@ -174,7 +174,7 @@ aside:
   # 侧边栏个人信息卡片
   # Sidebar personal information
   card:
-    style: 0 # 0: Heo样式 ：1: 设计样式
+    style: 1 # 0: Heo样式 ：1: 设计样式
     # 头像信息
     # Avatar information
     author:
@@ -258,19 +258,19 @@ aside:
   tags:
     # 是否显示标签
     # Whether to display tags
-    enable: false
+    enable: true
     # 显示标签数量，当高于标签总数时，显示全部标签按钮
     # Display the number of tags, when it is higher than the total number of tags, display all tags button
     limit: 20
     # 高亮显示标签列表
     # Highlighted tag list
-    highlight_list:
+    highlight_list: 
     #  - Hexo
 
   # 侧边栏归档
   # aside archive
   archive:
-    enable: false
+    enable: true
     # 显示类型
     type: "month" # month: 按月 / year: 按年 : month: by month / year: by year
 
@@ -282,7 +282,7 @@ aside:
     postcount: true
     # 总字数
     # The number of words on the web site
-    wordcount: false
+    wordcount: true
     # 访问量
     # PV
     pv: true
@@ -302,8 +302,8 @@ aside:
 # 首页文章配置信息
 # Configure information on the home page
 index_post_list:
-  direction: column # row / column
-  content: false # 1: post.description / 2: 自动获取description或截取内容(Automatically get descriptions or screenshots) / 3: 只使用截取内容(Use only screenshots) / false: 不显示内容(No content is displayed)
+  direction: row # row / column
+  content: true # 1: post.description / 2: 自动获取description或截取内容(Automatically get descriptions or screenshots) / 3: 只使用截取内容(Use only screenshots) / false: 不显示内容(No content is displayed)
   length: 500 # 截取内容的长度 : The length of the screenshot content
   cover: both # left: 在左侧 : left / right: 在右侧 : right / both: 两侧 : both
 
@@ -329,7 +329,7 @@ post:
     # -  # 默认图片 / default cover
     # 文章发布默认地址
     # default post locate
-    locate: 衡阳
+    locate: 亳州
     # 文章默认版权
     # default post copyright
     copyright:
@@ -352,44 +352,44 @@ post:
   # 打赏
   # reward
   award:
-    enable: false
+    enable: true
     appreciators: /about # 赞赏记录 / Appreciative records
     title: 感谢您的赞赏。
     desc: 因为有你们的支持，我才体会到写文章的价值。
     list:
-    #  - name: 爱发电
-    #    qcode: https://s3.qjqq.cn/47/661ba8e695f17.webp!color
-    #    url: https://afdian.net/a/efu0u0/
-    #    color: var(--efu-purple)
-    #  - name: Github Sponsor
-    #    qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
-    #    url: https://github.com/sponsors/efuo
-    #    color: var(--efu-black)
+      - name: 微信
+        qcode: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/weixin.67q2rokqtjc0.webp
+        url: 
+        color: var(--efu-purple)
+      - name: 支付宝
+        qcode: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/zhifubao.3cyzbn50z8s0.webp
+        url: 
+        color: var(--efu-black)
   # 分享按钮，需要是什么哪些按钮，填写后开启
   share:
-    enable: false
+    enable: true
     list:
-    #  - qq
-    #  - weibo
-    #  - twitter
-    #  - facebook
-    #  - telegram
-    #  - whatsapp
-    #  - linkedin
+      - qq
+      - weibo
+      - twitter
+      - facebook
+      - telegram
+      - whatsapp
+      - linkedin
   # 版权中订阅按钮跳转链接，填写地址后开启
   # Subscription button jump link in copyright
   rss: # /atom.xml
   # 文章主题色获取
   # Article theme color acquisition
   covercolor:
-    enable: false
+    enable: true
     mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
   # footer
   footer:
     enable: true
-    desc: 来自 Efu 的文章 # 介绍文字
+    desc: 来自 ARZHP 的文章 # 介绍文字
     button: # 跳转按钮
       enable: true
       name: 了解更多
@@ -426,7 +426,7 @@ display_mode:
 # Recommended articles at the bottom of the article
 # --------------------------------------
 related_post:
-  enable: false
+  enable: true
   # 推荐文章数量
   # Number of recommended articles
   limit: 2
@@ -484,7 +484,7 @@ footer:
     # In order for the theme to get more support, it is recommended to keep the theme link
     - name: 主题
       url: https://github.com/valor-x/hexo-theme-solitude
-    # - name: 订阅
+    #- name: 订阅
     #   url: /atom.xml
 
 # 404 页面(404 page)
@@ -507,10 +507,10 @@ says:
   enable: false
   # 主页的即刻轮播条
   # Talk carousel bar on the homepage
-  home_mini: false
+  home_mini: true
   # 1：张洪heo样式 / 2：Leonus样式
   # 1: Zhang Hong heo style / 2: Leonus style
-  style: 1
+  style: 2
   # 即刻短文仅展示前n条
   # Talk short text only shows the first n
   strip: 30
@@ -729,7 +729,7 @@ post_ai:
   randomPost: false
   # 举报链接，不填不显示
   # Report link, do not fill in and do not display
-  report: https://efu.me/
+  report: https://arzhp.cn/
   # 底部提示
   # Bottom tip
   tips: # 此内容根据文章生成，并经过人工审核，仅用于文章内容的解释与总结
@@ -791,7 +791,7 @@ artalk:
   option: # options
 
 # 中控台扩展 ： 最新评论 + 标签 + 文章
-console_plus: false
+console_plus: true
 
 # 站点验证
 # Site verification
