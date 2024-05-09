@@ -1,8 +1,32 @@
 ---
 title: 硬盘状态检测工具_CrystalDiskInfo 9.1.1
-tags: 工具,硬盘检测
-grammar_cjkRuby: true
+date: 2023-11-11
+updated:
+tags:
+categories: 工具
+keywords: 工具
+description:
+top_img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240508/ABUIABACGAAgxqnv8gUooqfRzAYwgAY49AQ.1pp9l7908vk0.webp
+comments:
+cover: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240508/ABUIABACGAAgxqnv8gUooqfRzAYwgAY49AQ.1pp9l7908vk0.webp
+toc:
+toc_number:
+toc_style_simple:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
+swiper_index: 1
+top_group_index: 1
+background: "#fff"
 ---
+
 
 
 
