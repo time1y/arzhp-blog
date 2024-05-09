@@ -38,7 +38,7 @@ nav:
   # logo group
   group:
    项目:   # 分类名称: 链接地址 || 图标
-     Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+     Solitude: https://github.com/time1y || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   # center menu
@@ -51,11 +51,11 @@ nav:
    友链:
      友链鱼塘: /moments/ || st-wifi-fill
      友情链接: /links/ || st-group-fill
-     宝藏博主: javascript:travelling() || st-gift-fill
-   我的:
-     装备: /equipment/ || st-laptop-line
-     工具箱: /tlink/ || st-tools-fill
-     音乐馆: /music/ || st-disc-fill
+  #   宝藏博主: javascript:travelling() || st-gift-fill
+  # 我的:
+     #装备: /equipment/ || st-laptop-line
+    # 工具箱: /tlink/ || st-tools-fill
+    # 音乐馆: /music/ || st-disc-fill
    关于:
      关于本站: /about/ || st-contacts-fill
 
@@ -127,10 +127,10 @@ hometop:
     sup: 置顶
     # 左下角大字
     # Large text in the lower left corner
-    title: Solitude 主题文档
+    title: ARZHP
     # 点击跳转链接
     # Click the jump link
-    url: https://solitude.js.org/
+    url: https://img.arzhp.cn/
     # 显示背景图片
     # Display background image
     img: /img/default.png
@@ -222,7 +222,7 @@ aside:
     # 个人信息卡片底部的小图标，按照例子填写
     information: # 样式为1时请不要超过4个
       Github: https://github.com/time1y || st-github-line # 名称：链接 || 图标 / Name: link || icon
-      Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
+      Mail: 1970786058@qq.com || st-mail-line
        
   # 二维码
   # Official account QR code
@@ -357,13 +357,13 @@ post:
     title: 感谢您的赞赏。
     desc: 因为有你们的支持，我才体会到写文章的价值。
     list:
-      - name: 爱发电
-        qcode: https://s3.qjqq.cn/47/661ba8e695f17.webp!color
-        url: https://afdian.net/a/efu0u0/
+      - name: 支付宝
+        qcode: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/zhifubao.3cyzbn50z8s0.webp
+        url: 
         color: var(--efu-purple)
-      - name: Github Sponsor
-        qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
-        url: https://github.com/sponsors/efuo
+      - name: 微信
+        qcode: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/weixin.67q2rokqtjc0.webp
+        url:
         color: var(--efu-black)
         # 分享按钮，需要是什么哪些按钮，填写后开启
   share:
@@ -382,13 +382,13 @@ post:
   # 文章主题色获取
   # Article theme color acquisition
   covercolor:
-    enable: false
+    enable: true
     mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
   # footer
   footer:
-    enable: true
+    enable: false
     desc: 来自 ARZHP 的文章 # 介绍文字
     button: # 跳转按钮
       enable: true
@@ -419,7 +419,7 @@ theme_color:
 # The theme supports three modes: automatic switching, dark mode, and light mode
 # --------------------------------------
 display_mode:
-  type: auto # auto: 自动切换 / dark: 暗色模式 / light: 亮色模式 / auto: automatic switching / dark: dark mode / light: light mode
+  type: light # auto: 自动切换 / dark: 暗色模式 / light: 亮色模式 / auto: automatic switching / dark: dark mode / light: light mode
   universe: true # 开启后暗色模式下会显示星空背景 / After opening, the dark mode will display the starry sky background
 
 # 文章底部推荐文章
@@ -441,13 +441,13 @@ footer:
   # 底部上方一排图标
   # Bottom row of icons
   information:
-    author: false # 是否显示 site_icon / enable site_icon in footer
+    author: true # 是否显示 site_icon / enable site_icon in footer
     left: # 左侧显示图标
-      Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
-      Mail: mailto:o@efu.me || st-mail-line
+      Github: https://github.com/time1y || st-github-line # 名称：链接 || 图标 / Name: link || icon
+      Mail: 1970786058@qq.com || st-mail-line
     right: # 右侧显示图标
-      Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
-      抖音: https://v.douyin.com/iJsLc8jt/ || st-douyin-fill     
+      Bilibili: https://space.bilibili.com/ || st-bilibili-line
+      抖音: https://v.douyin.com/ || st-douyin-fill     
   # 底部导航栏
   # Bottom navigation bar
   group:
@@ -481,8 +481,8 @@ footer:
   links:
     # 为了主题能够得到更多的支持，建议保留主题链接
     # In order for the theme to get more support, it is recommended to keep the theme link
-    - name: 主题
-      url: https://github.com/valor-x/hexo-theme-solitude
+    - name: GITHUB
+      url: https://github.com/time1y
     - name: 订阅
       url: /atom.xml
 
@@ -490,10 +490,10 @@ footer:
 errorpage:
   # 图片
   # image
-  img: /img/404.webp
+  img: /img/404.gif
   # 文字
   # text
-  text: =awa= 页面走丢了
+  text:  页面走丢了
   # 推荐文章列表
   # Recommended article list
   recommendList: true
@@ -503,7 +503,7 @@ errorpage:
 # 前置要求：需配置即刻短文页面
 # Pre-requirements: talk now page needs to be configured
 says:
-  enable: false
+  enable: true
   # 主页的即刻轮播条
   # Talk carousel bar on the homepage
   home_mini: true
@@ -808,7 +808,7 @@ verify_site:
 # Some CSS is not supported by all browsers, and you need to add the corresponding prefix to take effect
 # 开启 css_prefix 后，会自动为一些 CSS 增加前缀。（会增加 20%的体积）
 # After opening css_prefix, some CSS will be automatically prefixed. (Will increase 20% of the volume)
-css_prefix: false
+css_prefix: true
 
 # Font 字体
 # Font
@@ -831,7 +831,7 @@ extends:
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://solitude.js.org/configuration/extra#pwa
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
   mask_icon: /img/pwa/favicon.ico # 遮罩图标
@@ -860,8 +860,8 @@ google_adsense:
 
 # 自定义右键菜单 (Custom Right Menu)
 right_menu:
-  enable: false
-  commentBarrage: false # 是否显示热评开关 / Whether to display the hot comment switch.
+  enable: true
+  commentBarrage: true # 是否显示热评开关 / Whether to display the hot comment switch.
   # 翻译功能（仅支持简繁）
   # Translation function (Simplified and Traditional Chinese only)
   translate:
