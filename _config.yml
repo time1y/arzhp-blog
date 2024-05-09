@@ -4,7 +4,7 @@
 
 # Site
 title: ARZHP
-subtitle: 'IT使用工具'
+subtitle: '追逐理想的梦想。'
 description: '追逐理想的梦想。'
 keywords: Arzhp
 author: Time1y
@@ -19,7 +19,7 @@ permalink: a/:abbrlink.html  # 此处可以自己设置，也可以直接使用 
 abbrlink:
     alg: crc16   #算法： crc16(default) and crc32
     rep: dec     #进制： dec(default) and hex
-# permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/ 默认暂停
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
