@@ -78,7 +78,7 @@ nav:
 # 首页顶部样式
 # Home top style
 hometop:
-  enable: true # 是否打开 / if enable
+  enable: false # 是否打开 / if enable
   # banner display
   banner:
     # 左上角显示大文字
@@ -92,7 +92,7 @@ hometop:
     # 轮播icon
     # Carousel icon
     # tip: 76x76 size
-    icon:
+    icon: 
      HTML: 1 # 名字 / Name
        img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
        color: "#e9572b" # 背景色 / Background color
@@ -142,7 +142,7 @@ hometop:
 # 顶部推荐轮播图
 # 使用方法：在文章的front matter中添加“recommend: true”
 # tip：建议开了这个就不要开hometop，其功能类似
-carousel: false
+carousel: true
 
 # --------------------------------------
 # Aside Settings
