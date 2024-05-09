@@ -1,14 +1,13 @@
 ---
 title: CPU-Z
-date: 
+date: 2024-5-9
 updated:
 tags: 工具,CPU-Z,CPU检测软件
 categories: 工具
 keywords: 工具
 description:
-top_img: https://bkimg.cdn.bcebos.com/pic/f2deb48f8c5494ee7f2bcc4d22f5e0fe99257e5d?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
-comments:
-cover: https://bkimg.cdn.bcebos.com/pic/f2deb48f8c5494ee7f2bcc4d22f5e0fe99257e5d?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
+top_img: 
+cover: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240509/c995d143ad4bd1137c4b5eee58afa40f4afb0563.2cepq0r7h2sk.webp
 toc:
 toc_number:
 toc_style_simple:
