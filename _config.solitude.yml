@@ -447,8 +447,7 @@ footer:
       Mail: mailto:o@efu.me || st-mail-line
     right: # 右侧显示图标
       Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
-      抖音: https://v.douyin.com/iJsLc8jt/ || st-douyin-fill
-
+      抖音: https://v.douyin.com/iJsLc8jt/ || st-douyin-fill     
   # 底部导航栏
   # Bottom navigation bar
   group:
