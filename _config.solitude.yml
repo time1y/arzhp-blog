@@ -78,7 +78,7 @@ nav:
 # 首页顶部样式
 # Home top style
 hometop:
-  enable: false # 是否打开 / if enable
+  enable: true # 是否打开 / if enable
   # banner display
   banner:
     # 左上角显示大文字
