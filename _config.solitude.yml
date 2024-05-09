@@ -342,10 +342,10 @@ post:
   # 顶部文章简介
   # Top article introduction
   meta:
-    date: false # 发布日期 / Release date
+    date: true # 发布日期 / Release date
     updated: false # 更新日期 / Update date
     locate: false # 位置 / Location
-    wordcount: false # 字数 / Number of words
+    wordcount: true # 字数 / Number of words
     readtime: false # 访问 / uv
     pv: false # 浏览量 / pv
     comment: false # 评论数 / Comment count
@@ -382,7 +382,7 @@ post:
   # 文章主题色获取
   # Article theme color acquisition
   covercolor:
-    enable: true
+    enable: false
     mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
@@ -429,7 +429,7 @@ related_post:
   enable: true
   # 推荐文章数量
   # Number of recommended articles
-  limit: 2
+  limit: 3
   # 根据创建日期（created）或是更新日期（updated）
   # According to the creation date (created) or the update date (updated)
   date_type: created
@@ -504,7 +504,7 @@ errorpage:
 # 前置要求：需配置即刻短文页面
 # Pre-requirements: talk now page needs to be configured
 says:
-  enable: false
+  enable: true
   # 主页的即刻轮播条
   # Talk carousel bar on the homepage
   home_mini: true
@@ -642,7 +642,7 @@ lightbox: true
 # https://fancyapps.com/fancybox/
 fancybox: true
 # mediumZoom
-mediumZoom: false
+mediumZoom: true
 
 # mermaid tags plugin
 # https://mermaid.js.org/
