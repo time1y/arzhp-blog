@@ -93,8 +93,8 @@ hometop:
     # Carousel icon
     # tip: 76x76 size
     icon: 
-     HTML: 1 # 名字 / Name
-       img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
+      HTML: 网盘 # 名字 / Name
+        img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
         color: "#e9572b" # 背景色 / Background color
     # JS:
     #   img: https://7.isyangs.cn/34/65f2e43ceddda-34.png
