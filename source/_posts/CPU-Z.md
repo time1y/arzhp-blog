@@ -1,14 +1,13 @@
 ---
 title: CPU-Z
-date: 
+date: 2024-5-9
 updated:
 tags: 工具,CPU-Z,CPU检测软件
 categories: 工具
 keywords: 工具
 description:
-top_img: https://bkimg.cdn.bcebos.com/pic/f2deb48f8c5494ee7f2bcc4d22f5e0fe99257e5d?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
-comments:
-cover: https://bkimg.cdn.bcebos.com/pic/f2deb48f8c5494ee7f2bcc4d22f5e0fe99257e5d?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
+top_img: 
+cover: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240509/c995d143ad4bd1137c4b5eee58afa40f4afb0563.2cepq0r7h2sk.webp
 toc:
 toc_number:
 toc_style_simple:
@@ -29,8 +28,11 @@ color: 'var(--base08)'
 ---
 
 ----------
+
+
 CPU-Z是一款家喻户晓的CPU检测软件，是检测CPU使用程度极高的一款软件，除了使用Intel或AMD自己的检测软件之外，我们平时使用最多的此类软件就数它了。它支持的CPU种类相当全面，软件的启动速度及检测速度都很快。另外，它还能检测主板和内存的相关信息，其中就有我们常用的内存双通道检测功能。当然，对于CPU的鉴别我们还是最好使用原厂软件。
 使用这个软件可以查看CPU的信息。软件使用十分简单，下载后直接点击文件，就可以看到CPU 名称、厂商、内核进程、内部和外部时钟、局部时钟监测等参数。选购之前或者购买CPU后，如果我们要准确地判断其超频性能，就可以通过它来测量CPU实际设计的FSB频率和倍频。
+![enter description here](https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240509/c995d143ad4bd1137c4b5eee58afa40f4afb0563.2cepq0r7h2sk.webp)
 
 ## 安装卸载
 - 自从1.51版起，CPU-Z包括安装文件。与安装相比，提供了几个优势的独立版本：安装程序创造条目到开始菜单，在桌面上。
@@ -62,5 +64,6 @@ CPU-Z是一款家喻户晓的CPU检测软件，是检测CPU使用程度极高的
 
 ## CPU-Z下载地址
 
--  [百度云盘](链接：https://pan.baidu.com/s/1CVLXWkDSv16N-WDx6t5_Ig?pwd=ARZH)  提取码：ARZH
+-  [百度云盘](https://pan.baidu.com/s/1CVLXWkDSv16N-WDx6t5_Ig?pwd=ARZH)                          提取码：ARZH
+ 
 -  [阿里云](https://www.alipan.com/s/8Eb51nJbroE)
