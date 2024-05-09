@@ -64,5 +64,6 @@ CPU-Z是一款家喻户晓的CPU检测软件，是检测CPU使用程度极高的
 
 ## CPU-Z下载地址
 
--  [百度云盘](链接：https://pan.baidu.com/s/1CVLXWkDSv16N-WDx6t5_Ig?pwd=ARZH)  提取码：ARZH
+-  [百度云盘](https://pan.baidu.com/s/1CVLXWkDSv16N-WDx6t5_Ig?pwd=ARZH)                          提取码：ARZH
+ 
 -  [阿里云](https://www.alipan.com/s/8Eb51nJbroE)
