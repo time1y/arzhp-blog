@@ -7,21 +7,21 @@ authorinfo:
     - '脚踏实地行动派 🏃'
     - '团队小组发动机 🧱'
     - '壮汉人狠话不多 💢'
-  image: 'https://7.isyangs.cn/1/65eb27e69bcff-1.png'
+  image: './img/avatar.png'
 
 title: 关于本站
 
 contentinfo: # 顶部个人信息展示
   sup: 你好，很高兴认识你👋
-  name: 我叫王卓Sco # 名称
-  title: 是一名学生、软件工程师、独立开发者、博主 # 介绍
+  name: 我叫王理想 # 名称
+  title: 是一名计算机爱好者、DIY、博主 # 介绍
   tip: 追求
   slogan: 源于<br>热爱而去创造
   mask:
-    - 优秀的产品
-    - 出色的设计
-    - 高效的编程
-    - 人性化的用户体验
+    - DIY
+    - 折腾
+    - 计算机
+    - 编程爱好者
 
 skills: # 根据需求添加
   title: 技能
@@ -53,7 +53,7 @@ careers:
   title: '生涯'
   subtitle: '无限进步'
   items:
-    - school: '软件工程'
+    - school: '挣钱'
       major: '学习'
       color: '#357ef5'
   image: https://7.isyangs.cn/1/65eb2d10ba24d-1.png
@@ -68,7 +68,7 @@ personalities:
   linkText: '16personalities'
   typeLink: 'https://www.16personalities.com/ch/esfj-人格'
   typeName: '执政官'
-  myphoto: https://7.isyangs.cn/1/65eb2d340cad3-1.png
+  myphoto: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240508/2024050888.1qlk92g0je0w.webp
 
 motto:
   title: 座右铭
@@ -76,51 +76,51 @@ motto:
   content: 砥砺前行。
 expertise:
   title: 特长
-  prefix: 数学、物理、化学
+  prefix: 计算机维修,服务器维护。
   specialist: 专家
   content: 学习能力
   level: MAX
 
 game1:
   title: '爱好游戏'
-  img: https://7.isyangs.cn/1/65eb2d8954aac-1.png
+  img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240509/1683684964608084.25mfb84a2nfk.webp
   icon: 'fas fa-gamepad'
-  subtitle: 'APEX LEGENDS'
+  subtitle: '地下城与勇士'
   tips_left: C位
-  tips_right: ID Wleelw
+  tips_right: ID 狂野小战士
 
 game2:
   title: '爱好游戏'
-  img: https://7.isyangs.cn/1/65eb2e0383970-1.png
-  subtitle: 精灵与萤火意志
+  img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240509/u=4264956484,3163992439&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto.14gas5zw4em8.webp
+  subtitle: 穿越火线
   icon: 'fas fa-dice-d20'
-  tips_right: '跑图大师'
+  tips_right: ' 元帅'
 
-likes:
-  - type: like-technology
-    bg: https://7.isyangs.cn/1/65eb2e3d6616b-1.png
-    tips: 关注偏好
-    title: 数理化
-    subtips: 理工男
-  - type: like-music
-    bg: https://7.isyangs.cn/1/65eb2e5f85132-1.png
-    tips: 音乐偏好
-    title: 民谣、古典、轻音乐
-    subtips: 跟 王卓Sco 一起欣赏更多音乐
-    button: true
-    button_text: 更多推荐
-    button_link: /music/
+#likes:
+#  - type: like-technology
+#    bg: https://7.isyangs.cn/1/65eb2e3d6616b-1.png
+#    tips: 关注偏好
+#    title: 数理化
+#    subtips: 理工男
+#  - type: like-music
+#    bg: https://7.isyangs.cn/1/65eb2e5f85132-1.png
+#    tips: 音乐偏好
+#    title: 民谣、古典、轻音乐
+#    subtips: 跟 王卓Sco 一起欣赏更多音乐
+#    button: true
+#    button_text: 更多推荐
+#    button_link: /music/
 
 tj: # 统计
   url: https://v6-widget.51.la/v6/3F15j2vtdTo7PPcN/quote.js # 需要到51la官网注册自行获取
   img: https://7.isyangs.cn/1/65eb2e9109826-1.png # 背景
 
 oneself: # 按需填写
-  location: '中国，湖南省' # 所在位置
-  birthYear: '2004' # 生日
-  university: '湖南大学' # 毕业学校
-  major: '软件工程' # 专业
-  occupation: '学生' # 职位
+  location: '中国，安徽省' # 所在位置
+  birthYear: '1996' # 生日
+  university: '华中科技大' # 毕业学校
+  major: '计算机' # 专业
+  occupation: '毕业' # 职位
   map: # 你所在位置的地图
     light: https://7.isyangs.cn/1/65eb2ec63a9aa-1.png # 白天
     dark: https://7.isyangs.cn/1/65eb2eedc780e-1.png # 夜晚
@@ -148,20 +148,7 @@ award:
   description: 感谢赞赏的人，因为你们，让我感受到写博客这件事情能够给你们创造了价值。这会让我在这条路上走得更远。
   tips: 总金额：¥ {sum}，将全部用于博客的维护和更新。 # 必须带 {sum}，否则无法显示总金额
 rewardList: # 底部捐赠
-  - name: 悦华
+  - name: 安然
     money: 5
     time: 2023-04-20
-  - name: 糕小菜
-    money: 6.66
-    time: 2023-08-11
-    vip: true
-  - name: 幕幕
-    money: 5
-    time: 2023-08-11
-  - name: 悦华
-    money: 56
-    vip: true
-    time: 2023-08-25
-  - name: 糕小菜
-    money: 3.33
-    time: 2023-12-24
+  

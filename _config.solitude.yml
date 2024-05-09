@@ -38,7 +38,7 @@ nav:
   # logo group
   group:
    项目:   # 分类名称: 链接地址 || 图标
-     Solitude: https://github.com/time1y || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+     上传: https://img.arzhp.cn || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   # center menu
@@ -88,7 +88,7 @@ hometop:
     title: 宁静致远<br>热爱生活
     # 左上角显示小文字
     # Small text displayed in the upper left corner
-    url: Hexo Theme Solitude
+    url: Are you ok !
     # 轮播icon
     # Carousel icon
     # tip: 76x76 size
@@ -190,10 +190,10 @@ aside:
     url: /about/
     # 背景图片
     # Background image
-    background: # https://s3.qjqq.cn/47/663af296b85f4.webp!color # 不设置不会展示（仅样式为1、2时有效）
+    background: # https://s3.qjqq.cn/47/663af296b85f4.webp color # 不设置不会展示（仅样式为1、2时有效）
     # 文案1
     # label1
-    content: 分享自己对编程的<b>热爱</b>，对美好生活的<b>向往</b>，对知识海洋<b>探索历程</b>。 # 样式为1时无效
+    content: 分享自己对计算机<b>热爱</b>，对美好生活的<b>向往</b>，对知识海洋<b>探索历程</b>。 # 样式为1时无效
     # 文案2
     # label2
     content2: 相信你可以在这里找到对你有用的知识和教程。 # 样式为1时无效
