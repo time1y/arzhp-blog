@@ -4,10 +4,10 @@
 
 # Site
 title: ARZHP
-subtitle: ''
-description: '一个小白的博客'
-keywords:
-author: time1y
+subtitle: 'IT使用工具'
+description: '追逐理想的梦想。'
+keywords: Arzhp
+author: Time1y
 language: zh-CN
 timezone: ''
 
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: arzhp
+theme: solitude
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
