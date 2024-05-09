@@ -1,11 +1,11 @@
 menu:
    文章:
-     隧道: /archives/ || anzhiyu-icon-box-archive
+     归档: /archives/ || anzhiyu-icon-box-archive
      分类: /categories/ || anzhiyu-icon-shapes
      标签: /tags/ || anzhiyu-icon-tags
 
    友链:
-     友人帐: /link/ || anzhiyu-icon-link
+     友人帐: /links/ || anzhiyu-icon-link
      朋友圈: /fcircle/ || anzhiyu-icon-artstation
      留言板: /comments/ || anzhiyu-icon-envelope
 
@@ -234,7 +234,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 安徽省
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -246,10 +246,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/weixin.67q2rokqtjc0.webp
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/zhifubao.3cyzbn50z8s0.webp
       link:
       text: 支付宝
 
@@ -314,7 +314,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: # Twikoo/Waline
+  use: twikoo # Twikoo/Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -360,7 +360,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://twikoo.arzhp.cn/
   region:
   visitor: false
   option:
