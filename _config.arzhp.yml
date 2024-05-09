@@ -55,7 +55,7 @@ nav:
    我的:
      装备: /equipment/ || st-laptop-line
      工具箱: /tlink/ || st-tools-fill
-  #   音乐馆: /music/ || st-disc-fill
+     音乐馆: /music/ || st-disc-fill
    关于:
      关于本站: /about/ || st-contacts-fill
 
@@ -92,10 +92,10 @@ hometop:
     # 轮播icon
     # Carousel icon
     # tip: 76x76 size
-    icon: 
-    #  HTML: 网盘 # 名字 / Name
-    #    img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
-    #    color: "#e9572b" # 背景色 / Background color
+    icon:
+    # HTML: # 名字 / Name
+    #   img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
+    #   color: "#e9572b" # 背景色 / Background color
     # JS:
     #   img: https://7.isyangs.cn/34/65f2e43ceddda-34.png
     #   color: "#f7cb4f"
@@ -115,9 +115,9 @@ hometop:
   # 左下跳转按钮
   # Banner lower left jump button
   group:
-   # 热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
-   # 教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
-   # 精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
+  # 热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
+  # 教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
+  # 精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
 
   # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
   # Right top list (add "recommend: true" in the front matter of the article)
@@ -127,10 +127,10 @@ hometop:
     sup: 置顶
     # 左下角大字
     # Large text in the lower left corner
-    title: Solitude 主题文档
+    title: ARZHP
     # 点击跳转链接
     # Click the jump link
-    url: https://solitude.js.org/
+    url: https://arzhp.cn/
     # 显示背景图片
     # Display background image
     img: /img/default.png
@@ -180,7 +180,7 @@ aside:
     author:
       # 头像
       # Avatar
-      img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240508/2024050888.1qlk92g0je0w.webp
+      img: /img/avatar.png
       # 表情图片链接
       # Emoticon image link
       # tip: 26x26 size
@@ -221,7 +221,7 @@ aside:
     #  - 🎮 电竞游戏爱好者
     # 个人信息卡片底部的小图标，按照例子填写
     information: # 样式为1时请不要超过4个
-      Github: https://github.com/time1y || st-github-line # 名称：链接 || 图标 / Name: link || icon
+    #  Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
     #  Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
 
   # 二维码
@@ -248,7 +248,7 @@ aside:
     post: true
     # 在任意页显示
     # Display on any page
-    page: false
+    page: true
     # 开启后不悬停目录有模糊效果
     # After opening, there is a fuzzy effect without hovering over the directory
     vague: true
@@ -264,7 +264,7 @@ aside:
     limit: 20
     # 高亮显示标签列表
     # Highlighted tag list
-    highlight_list: 
+    highlight_list:
     #  - Hexo
 
   # 侧边栏归档
@@ -357,17 +357,17 @@ post:
     title: 感谢您的赞赏。
     desc: 因为有你们的支持，我才体会到写文章的价值。
     list:
-      - name: 微信
-        qcode: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/weixin.67q2rokqtjc0.webp
-        url: 
-        color: var(--efu-purple)
-      - name: 支付宝
-        qcode: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231214/zhifubao.3cyzbn50z8s0.webp
-        url: 
-        color: var(--efu-black)
+    #  - name: 爱发电
+    #    qcode: https://s3.qjqq.cn/47/661ba8e695f17.webp!color
+    #    url: https://afdian.net/a/efu0u0/
+    #    color: var(--efu-purple)
+    #  - name: Github Sponsor
+    #    qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
+    #    url: https://github.com/sponsors/efuo
+    #    color: var(--efu-black)
   # 分享按钮，需要是什么哪些按钮，填写后开启
   share:
-    enable: true
+    enable: false
     list:
       - qq
       - weibo
@@ -429,7 +429,7 @@ related_post:
   enable: true
   # 推荐文章数量
   # Number of recommended articles
-  limit: 3
+  limit: 2
   # 根据创建日期（created）或是更新日期（updated）
   # According to the creation date (created) or the update date (updated)
   date_type: created
@@ -481,10 +481,9 @@ footer:
   # Footer right link, such as: ICP filing number, public security filing number, etc.
   links:
     # 为了主题能够得到更多的支持，建议保留主题链接
-    # In order for the theme to get more support, it is recommended to keep the theme link
-    - name: 主题
-      url: https://github.com/valor-x/hexo-theme-solitude
-    #- name: 订阅
+    - name: ARZHP
+      url: https://arzhp.cn
+    # - name: 订阅
     #   url: /atom.xml
 
 # 404 页面(404 page)
@@ -504,7 +503,7 @@ errorpage:
 # 前置要求：需配置即刻短文页面
 # Pre-requirements: talk now page needs to be configured
 says:
-  enable: true
+  enable: false
   # 主页的即刻轮播条
   # Talk carousel bar on the homepage
   home_mini: true
@@ -600,7 +599,7 @@ copy:
 # 懒加载
 # lazyload
 lazyload:
-  enable: true
+  enable: false
   field: site # post, site
   # 加载中显示图片
   # Loading display image
@@ -637,12 +636,12 @@ highlight:
 # image lightbox
 # warning：开启前下方的fancybox或mediumZoom必须打开一个
 # warning: One of the fancybox or mediumZoom below must be turned on before turning on
-lightbox: true
+lightbox: false
 # fancybox
 # https://fancyapps.com/fancybox/
-fancybox: true
+fancybox: false
 # mediumZoom
-mediumZoom: true
+mediumZoom: false
 
 # mermaid tags plugin
 # https://mermaid.js.org/
@@ -678,7 +677,7 @@ busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 # warning：开启前需要安装搜索插件
 # warning: You need to install the search plugin before turning it on
 search:
-  enable: ture
+  enable: true
   # algolia, local
   type: local
   # 推荐标签
@@ -746,7 +745,7 @@ katex:
 # comment
 # getting start: https://solitude.js.org/comments/comment
 comment:
-  use: twikoo # waline, twikoo, valine, artalk
+  use: # waline, twikoo, valine, artalk
   commentBarrage: false # 热评开关 / Hot comment switch
   lazyload: false # 懒加载
   count: false # 评论数展示
@@ -758,8 +757,8 @@ comment:
 
 # twikoo 配置信息
 # twikoo settings
-twikoo:   # https://twikoo.js.org/
-  envId: https://twikoo.arzhp.cn/ # url: https://twikoo.sondy.top/
+twikoo: # https://twikoo.js.org/
+  envId: # url: https://twikoo.sondy.top/
   region: # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
   style: true # Use custom styles when turned on / 开启后使用自定义样式
   accessToken: # AccessToken
@@ -791,7 +790,7 @@ artalk:
   option: # options
 
 # 中控台扩展 ： 最新评论 + 标签 + 文章
-console_plus: true
+console_plus: false
 
 # 站点验证
 # Site verification
