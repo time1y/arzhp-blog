@@ -248,7 +248,7 @@ aside:
     post: true
     # 在任意页显示
     # Display on any page
-    page: false
+    page: true
     # 开启后不悬停目录有模糊效果
     # After opening, there is a fuzzy effect without hovering over the directory
     vague: true
