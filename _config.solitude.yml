@@ -737,9 +737,9 @@ post_ai:
 # latex formula support
 # docs: https://solitude.js.org/configuration/extra#数学公式
 katex:
-  enable: false
-  per_page: false # 是否在每页都加载 / Whether to load on each page
-  copytex: false # 是否开启复制公式 / Whether to enable copy formula
+  enable: true
+  per_page: true # 是否在每页都加载 / Whether to load on each page
+  copytex: true # 是否开启复制公式 / Whether to enable copy formula
 
 # 评论
 # comment
@@ -831,7 +831,7 @@ extends:
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://solitude.js.org/configuration/extra#pwa
 pwa:
-  enable: true
+  enable: false
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
   mask_icon: /img/pwa/favicon.ico # 遮罩图标
