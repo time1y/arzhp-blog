@@ -26,10 +26,10 @@ site:
     custom: ARZHP
   # 网页icon
   # Web icon
-  siteIcon: /img/pwa/favicon.ico
+  siteIcon: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240510/avatar.763rpd8wngw0.ico #/img/pwa/favicon.ico
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
-  icon: /img/pwa/favicon.ico
+  icon:  https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240510/avatar.763rpd8wngw0.ico #/img/pwa/favicon.ico
 
 # 导航栏
 # NavBar

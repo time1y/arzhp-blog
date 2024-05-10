@@ -1,14 +1,20 @@
 ---
 title: MD语法
-date: 2023-11-11
-updated:
 tags: 教程
 categories: 教程
+top_img: >-
+  https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231210/35CB35BB-AC03-4A0D-9C94-AC3B24AFCB30.1i8r6c8khv34.webp
+cover: >-
+  https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231210/35CB35BB-AC03-4A0D-9C94-AC3B24AFCB30.1i8r6c8khv34.webp
+swiper_index: 1
+top_group_index: 1
+background: '#fff'
+abbrlink: 39286
+date: 2023-11-11 00:00:00
+updated:
 keywords:
 description:
-top_img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231210/35CB35BB-AC03-4A0D-9C94-AC3B24AFCB30.1i8r6c8khv34.webp
 comments:
-cover: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231210/35CB35BB-AC03-4A0D-9C94-AC3B24AFCB30.1i8r6c8khv34.webp
 toc:
 toc_number:
 toc_style_simple:
@@ -22,9 +28,6 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 1
-top_group_index: 1
-background: "#fff"
 ---
 # Markdown 教程
 

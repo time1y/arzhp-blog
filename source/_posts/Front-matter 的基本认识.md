@@ -1,14 +1,20 @@
 ---
 title: Front-matter 的基本认识
-date: 2023-11-11
-updated:
-tags:
 categories: 教程
 keywords: 教程
+top_img: >-
+  https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231212/60a3497b48c1aec6e86c99a9d644bedf8b9f525b.kyxult29fgw.webp
+cover: >-
+  https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231212/60a3497b48c1aec6e86c99a9d644bedf8b9f525b.kyxult29fgw.webp
+swiper_index: 1
+top_group_index: 1
+background: '#fff'
+abbrlink: 50779
+date: 2023-11-11 00:00:00
+updated:
+tags:
 description:
-top_img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231212/60a3497b48c1aec6e86c99a9d644bedf8b9f525b.kyxult29fgw.webp
 comments:
-cover: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20231212/60a3497b48c1aec6e86c99a9d644bedf8b9f525b.kyxult29fgw.webp
 toc:
 toc_number:
 toc_style_simple:
@@ -22,9 +28,6 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 1
-top_group_index: 1
-background: "#fff"
 ---
 
 

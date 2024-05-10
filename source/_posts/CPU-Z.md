@@ -1,13 +1,19 @@
 ---
 title: CPU-Z
 date: 2024-5-9
-updated:
-tags: 工具,CPU-Z,CPU检测软件
+tags: '工具,CPU-Z,CPU检测软件'
 categories: 工具
 keywords: 工具
+cover: >-
+  https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240509/c995d143ad4bd1137c4b5eee58afa40f4afb0563.2cepq0r7h2sk.webp
+swiper_index: 1
+top_group_index: 1
+background: '#fff'
+color: var(--base08)
+abbrlink: 46297
+updated:
 description:
-top_img: 
-cover: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240509/c995d143ad4bd1137c4b5eee58afa40f4afb0563.2cepq0r7h2sk.webp
+top_img:
 toc:
 toc_number:
 toc_style_simple:
@@ -21,10 +27,6 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 1
-top_group_index: 1
-background: "#fff"
-color: 'var(--base08)'
 ---
 
 ----------
