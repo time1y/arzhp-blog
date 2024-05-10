@@ -180,11 +180,11 @@ aside:
     author:
       # 头像
       # Avatar
-      img: /img/avatar.png
+      img: https://cdn.jsdelivr.net/gh/time1y/time1y-images-hosting@master/20240510/avatar.7avorail1yk0.webp
       # 表情图片链接
       # Emoticon image link
       # tip: 26x26 size
-      sticker: https://7.isyangs.cn/34/65f2e4e0423cc-34.png # 不填不显示
+      sticker:  # 不填不显示 表情链接
     # 点击作者头像跳转链接
     # Click the author's avatar to jump link
     url: /about/
